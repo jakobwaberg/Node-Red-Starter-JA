@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Node-Red-Starter-JA
+  host: Node-Red-Starter-JA
+  disk_quota: 1024M
+  services:
+  - Node-Red-Starter-JA-cloudantNoSQLDB
